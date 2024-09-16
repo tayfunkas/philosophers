@@ -26,7 +26,7 @@
 
 2. **Run the simulation** with the following command:
    
-   `./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]`
+   `./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]`
    - `<number_of_philosophers>`: Number of philosophers (threads) to simulate.
    - `<time_to_die>`: Time in milliseconds until a philosopher dies from starvation.
    - `<time_to_eat>`: Time in milliseconds that a philosopher spends eating.
@@ -41,7 +41,7 @@
 
 To start a simulation with 5 philosophers, where each philosopher will die if they do not eat within 800 milliseconds, spend 200 milliseconds eating, and 200 milliseconds sleeping, run:
 
-`./philosophers 5 800 200 200`
+`./philo 5 800 200 200`
 
 ## Notes
 
